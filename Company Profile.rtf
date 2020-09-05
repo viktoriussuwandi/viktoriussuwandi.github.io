@@ -1,0 +1,218 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;\red0\green0\blue233;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Ngobar 6 & 7 : Membuat website company profile\
+Materialize\
+-download file materialize, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/getting-started.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 https://materializecss.com/getting-started.html}}\
+-Buat file baru index.html, panggil css & js\
+\
+//=============================================================\
+BAGIAN 1\
+//=============================================================\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 navbar\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 1.Beri title
+\b \
+
+\b0 2.copas fixed navbar, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/navbar.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 https://materializecss.com/navbar.html}}
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone    -Bungkus isi tag <nav> dengan container\
+   -Ubah judul dan isi dari navbar\'92nya\
+   -Ubah warna navbar\'92nya, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/color.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul https://materializecss.com/color.html}}
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone 3.Tambahkan Mobile collapse Button -> untuk memunculkan sidebar & terlihat responsive\
+   sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/navbar.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul https://materializecss.com/navbar.html}}
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone    -Copas 1 baris elemen dengan nama class : sidenav-trigger -> untuk menambahkan icon sidenav\
+   -Ubah data-target menjadi mobile-nav\
+   -Copas komponen tag <li> yg sama dengan komponen navbar\
+     Agar ketika di-klik, akan menuju ke arah halaman yg sama\
+   -Panggil js untuk event kelika icon sidenav di-klik\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 slideshow\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 1.Siapkan gambar yg akan digunakan, sumber : {\field{\*\fldinst{HYPERLINK "https://unsplash.com/"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul https://unsplash.com/}}
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone 2.Copas slider, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/media.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul https://materializecss.com/media.html}}
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone    -Ubah img src\
+   -Panggil js untuk event kelika slider dijalankan, \
+    & tambahkan options\'92nya seperti : indicators,height,interval,dll\
+   -Buat css untuk membuat tulisan pada gambar slider menjadi shadow (agar terbaca)\
+   -Ubah text align pada gambar untuk variasi arah animasi slider\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 about us\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 Layouting / grid\
+1.Bungkus ke dalam section, buat container di dalam section tersebut\
+2.Atur layout, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/grid.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul https://materializecss.com/grid.html}}\
+   Terdapat beberapa ukuran (sama spt bootstrap) : small,medium,large,extra large\
+   a.Pada bootstrap harus dibuat 2 row yg berbeda (subjudul & isi), \
+      namun kali ini cukup 1 row saja\
+   b.Sub judul : beri tag <h3> beri class unt pengaturan warna light grey-text text-darken-3\
+   c.Isi : bagi menjadi 2 kolom -> kanan & kiri\
+      -Kiri : isi dengan sub judul (tag <h3>) dan bagian isi\'92nya\
+      -Kanan : isi dengan 3 bagian, masing-masing ada paragraf & \
+        preloader, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/preloader.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul https://materializecss.com/preloader.html}}\
+      -Modifikasi tiap bagian isi & pre-loader\'92nya\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 our clients\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 Parallax\
+1.Copas parallax, sumber :{\field{\*\fldinst{HYPERLINK "https://materializecss.com/parallax.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul https://materializecss.com/parallax.html}}
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone 2.Panggil js untuk event agar parallax berjalan\
+3.Tambahkan css untuk mengatur :\
+    -Tinggi gambar : 20% -> agar responsive\
+    -Transparansi gambar : beri !important -> untuk menghentikan css bawaan dari materialize\
+4.Beri tulisan :\
+   a.Sub judul : buat tag <h3> Our Clients\
+   b.Isi, beri 3 buah img\
+   c.Atur css untuk ketiga img tersebut :\
+      -max-width : untuk mengatur tinggi maksimum dari tiap gambar\
+      -filer:drop-shadow() : untuk mengatur jelas/tidak\'92nya gambar\
+   d.Tambahkan s12 pada class di img\
+       agar ketika dibuka di-hp (ukuran small), semua gambar berjajar ke bawah (ga berantakan)\
+\
+//=============================================================\
+BAGIAN 2\
+//=============================================================\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 services\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 1.Buat section, di dlm\'92nya buat container, & row\
+2.Pada section beri backround color grey dengan menambahkan pada class=\'93services grey lighten-2\'94\
+   Tambahkan css -> agar background\'92nya menempel dengan our clients\
+   padding : 20px 0; -> untuk pengaturan padding left-right dan top-bottom\
+3.Buat 1 row @ 3 kolom -> untuk kolom tambahkan class=\'93col m4 s12\'94\
+4.Judul : buat tag <h3> dengan tema light dan grey-text text-darken-3\
+5.Isi : Buat cards denga class=\'93card-panel center\'94\
+   Tambahkan icon, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/icons.html"}}{\fldrslt 
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 https://materializecss.com/icons.html}}
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone \outl0\strokewidth0    \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 portfolio
+\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 1.Buat section, di dlm\'92nya buat container, & row\
+2.Pada section beri backround color grey dengan menambahkan pada class=\'93portfolio grey lighten-2\'94\
+3.Buat judul tag <h3> dengan class=\'93center\'94\
+4.Buat 2 row @ 4 kolom\
+   -Untuk kolom tambahkan class=\'93col m3 s12\'94\
+   -Buat img dengan class=\'93responsive-img\'94\
+   -Pada img -> Tambahkan material box, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/media.html"}}{\fldrslt 
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 https://materializecss.com/media.html}}
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone \outl0\strokewidth0    -Tambahkan js agar img dapat di-klik & ber-efek zoom\
+   -notes :Buat 1 row terlebih dahulu -> kemudian baru copas untuk row ke-2\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 contact us\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 1.Buat section, di dlm\'92nya buat container, & row\
+2.Pada section beri backround color grey dengan menambahkan pada class=\'93contact grey-lighten-2\'94\
+3.Buat judul tag <h3> dengan class=\'93center grey-text text darken-3\'94\
+4.Buat 1 row @ 2 kolom\
+   a.Kolom kiri : class=\'93m5 s12\'94\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0       -Buat card-panel dengan class=\'93blue accent-2 center\'94\
+        Tambahkan icon, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/icons.html"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 https://materializecss.com/icons.html}}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0         Tambahkan tag <p> untuk keterangan\
+      -Buat collection (list-group), berisi alamat\
+   b.Kolom kanan : class=\'93m7 s12\'94\
+      -Buat card-panel, yg berisi text input, sumber : {\field{\*\fldinst{HYPERLINK "https://materializecss.com/text-inputs.html"}}{\fldrslt 
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 https://materializecss.com/text-inputs.html}}
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 \outl0\strokewidth0 \strokec3 \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone \outl0\strokewidth0       -Text input\'92nya :\
+        menggunakan material  icon-prefix dan input field\
+        3 buah input field, 1 buat text area, dan 1 buah tombol\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 footer
+\b0 \
+1.Buat tag <footer>\
+2.Beri tag <p>, tambahkan class=\'93flow text\'94 agar ukuran text menyesuaikan ukuran device\
+3.Beri icon copyright\
+4.Atur css\'92nya agar tidak ada padding\
+\
+\
+
+\b link
+\b0 \
+1.Pada navbar & sidebar, arahkan href ke masing-masing id dari section, atau elemen\'92nya\
+2.Pada tiap-tiap class yg dituju, tambahkan class=\'93scrollspy\'94\
+   Pada body -> tambahkan id=\'93home\'94 dan class\'92nya=\'93scrollspy\'94\
+\pard\tx0\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0    Pada tag nav-wrapper bagian brand-logo, arahkan href\'92nya ke home\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 3.Tambahkan js untuk inisialisasi scrollspy\'92nya\
+4.Atur option\'92nya agar jarak\'92nya tidak terlalu jauh
+\b \
+}
